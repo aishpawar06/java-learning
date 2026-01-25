@@ -5,6 +5,8 @@ public class Variables {
         String var3 = "Tony";
         System.out.println("var1 = "+var1);
         System.out.println("var2 = "+var2);
-        System.out.println("var3 = "var3);
+        System.out.println("var3 = "+var3);
+        var1 = 90;
+        System.out.println("var1 after update = "+ var1);
     }
 }
