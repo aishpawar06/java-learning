@@ -8,6 +8,8 @@ public class DataTypes {
         System.out.println("Float = "+price);
         int number = 10;
         System.out.println("integer = "+number);
+        char ch='a';
+        System.out.println("characher = "+ ch);
         //long is used for big integers
         long l = 10000000;
         System.out.println("long = "+l);
