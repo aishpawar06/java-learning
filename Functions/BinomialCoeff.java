@@ -1,7 +1,5 @@
 //Find the Binomial Coefficient
 
-package Functions;
-
 public class BinomialCoeff {
     public static int factorial(int n){
         int fact=1;

@@ -1,4 +1,4 @@
-package Functions;
+
 import java.util.Scanner;
 public class Reverse {
     public static int rev(int num){
@@ -15,6 +15,7 @@ public class Reverse {
         System.out.print("Enter a number: ");
         int num=sc.nextInt();
         System.out.println("Reversed number: "+rev(num));
+        sc.close();
     }
 
     

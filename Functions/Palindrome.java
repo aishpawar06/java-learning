@@ -1,5 +1,5 @@
 //check if a number is palindrome or not
-package Functions;
+
 import java.util.*;
 public class Palindrome {
     public static boolean isPal(int num){

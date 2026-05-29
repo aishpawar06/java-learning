@@ -1,5 +1,4 @@
 //Find the product of 2 numbers using function 
-package Functions;
 
 public class Product {
     public static int multiply(int a, int b){

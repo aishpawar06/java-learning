@@ -16,7 +16,6 @@ public class Incometax {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your income in Rupees: ");
         double income = sc.nextInt();
-        double tax;
         if(income < 500000){
             System.out.println("You have to pay "+ (0*income)+ "Rs income tax");
         }else if(income >= 500000 && income < 1000000){

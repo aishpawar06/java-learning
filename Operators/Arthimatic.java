@@ -25,5 +25,6 @@ public class Arthimatic {
         int post2 = post1++;
         System.out.println(post1);
         System.out.println(post2);
+        sc.close();
     }
 }

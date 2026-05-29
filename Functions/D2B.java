@@ -1,9 +1,8 @@
-package Functions;
 
 import java.util.Scanner;
 
 public class D2B {
-    public static void D2B(int n) {
+    public static void D2Bconversion(int n) {
     int pow = 0;
     int binNum = 0;
 
@@ -17,9 +16,10 @@ public class D2B {
     }
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a binary number: ");
+        System.out.println("Enter a decimal number: ");
         int bin = sc.nextInt();
-        D2B(bin);
+        D2Bconversion(bin);
+        sc.close();
     }
 
 }

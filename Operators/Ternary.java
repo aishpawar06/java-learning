@@ -6,6 +6,7 @@ public class Ternary {
         System.out.println("Enter the number: ");
         int num = sc.nextInt();
         System.out.println((num%2==0)?"Even":"Odd");
+        sc.close();
     }
     
 }

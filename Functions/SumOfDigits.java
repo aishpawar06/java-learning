@@ -1,5 +1,5 @@
 //Create a function to calculate the sum of digits of a number
-package Functions;
+
 import java.util.Scanner;
 public class SumOfDigits {
     public static int SOD(int n){
@@ -15,6 +15,7 @@ public class SumOfDigits {
         System.out.println("Enter a number:");
         int n=sc.nextInt();
         System.out.println("Sum is: "+ SOD(n));
+        sc.close();
     }
     
 }

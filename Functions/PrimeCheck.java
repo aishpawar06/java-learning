@@ -1,6 +1,5 @@
 //Check for prime number using a build-in function
 
-package Functions;
 import java.util.Scanner;
 public class PrimeCheck{
 

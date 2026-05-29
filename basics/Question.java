@@ -11,6 +11,7 @@ public class Question {
         float item3 = sc.nextFloat();
         float bill = (item1+item2+item3)+(0.18f*(item1+item2+item3));
         System.out.println("Bill after 18% gst is : "+ bill);
+        sc.close();
     }
     
 }

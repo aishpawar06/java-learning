@@ -1,5 +1,5 @@
 //write a program to take numbers from user and calculate sum of even and odd numbers seperately
-package Functions;
+
 import java.util.Scanner;
 public class EveOddSum {
     public static void EveOdd(){

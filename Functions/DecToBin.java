@@ -1,4 +1,3 @@
-package Functions;
 
 import java.util.Scanner;
 
@@ -20,6 +19,7 @@ public class DecToBin {
         System.out.println("Enter a binary number: ");
         int bin = sc.nextInt();
         D2B(bin);
+        sc.close();
     }
 
 }

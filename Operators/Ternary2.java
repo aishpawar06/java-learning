@@ -7,6 +7,7 @@ public class Ternary2 {
         System.out.println("Enter your marks:");
         int Marks = sc.nextInt();
         System.out.println((Marks>=33)?"Pass":"Fail");
+        sc.close();
     }
 
     

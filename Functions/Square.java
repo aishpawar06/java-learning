@@ -1,4 +1,4 @@
-package Functions;
+
 import java.util.Scanner;
 public class Square {
     static int square(int n) {
@@ -9,5 +9,6 @@ public class Square {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.print(square(n));
+        sc.close();
     }
 }

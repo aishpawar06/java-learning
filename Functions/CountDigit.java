@@ -1,5 +1,5 @@
 //Write a function that calculates the number of digits in a number
-package Functions;
+
 import java.util.Scanner;
 public class CountDigit {
     public static int count(int num){
@@ -15,6 +15,7 @@ public class CountDigit {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
         System.out.println("Count: "+ count(num));
+        sc.close();
     }
     
 }

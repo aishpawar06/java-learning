@@ -1,4 +1,4 @@
-package Functions;
+
 import java.util.Scanner;
 public class Avg {
     public static int avg(int a, int b, int c){

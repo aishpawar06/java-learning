@@ -1,5 +1,4 @@
 //Find out all the prime numbers till n
-package Functions;
 
 public class PrimeRange {
     public static void Prime(int n){

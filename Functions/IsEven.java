@@ -1,5 +1,5 @@
 //Create a method which accepts a number and returns true if its even otherwise false
-package Functions;
+
 import java.util.Scanner;
 public class IsEven {
     public static boolean IsEvenFunc(int n){
@@ -13,6 +13,7 @@ public class IsEven {
         System.out.println("Enter a number:");
         int n=sc.nextInt();
         System.out.println(IsEvenFunc(n));
+        sc.close();
     }
     
 }

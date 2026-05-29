@@ -1,4 +1,4 @@
-package Functions;
+
 import java.util.Scanner;
 public class Fact {
     public static int factorial(int num){
@@ -17,5 +17,6 @@ public class Fact {
         System.out.println("Enter a number: ");
         int n = sc.nextInt();
         System.out.println("Factorial: "+ factorial(n));
+        sc.close();
     }
 }

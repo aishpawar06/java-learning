@@ -1,5 +1,5 @@
 //Create a function which returns the largest digit in a number
-package Functions;
+
 import java.util.Scanner;
 public class LargestDig {
     public static int largestDigit(int num){
@@ -18,6 +18,7 @@ public class LargestDig {
         System.out.print("Enter a number: ");
         int num=sc.nextInt();
         System.out.println("Largest digit is : "+ largestDigit(num));
+        sc.close();
     }
     
 }

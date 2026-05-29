@@ -10,6 +10,7 @@ public class ReverseOfNumber {
             System.out.print(temp%10);
             temp/=10;
         }
+        sc.close();
         
     }
     
